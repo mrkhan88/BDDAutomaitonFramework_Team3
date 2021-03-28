@@ -1,0 +1,96 @@
+[
+  {
+    "source": "I am at Boostmobile homepage",
+    "steps": [
+      {
+        "name": "I am at Boostmobile homepage",
+        "aggregatedDurations": {
+          "median": 3.916624,
+          "average": 3.916624
+        },
+        "durations": [
+          {
+            "duration": 4.046995,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:4"
+          },
+          {
+            "duration": 3.786253,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Search",
+    "steps": [
+      {
+        "name": "I click on Search",
+        "aggregatedDurations": {
+          "median": 0.131036,
+          "average": 0.131036
+        },
+        "durations": [
+          {
+            "duration": 0.131036,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type valid product name in SearchBox",
+    "steps": [
+      {
+        "name": "I type valid product name in SearchBox",
+        "aggregatedDurations": {
+          "median": 0.757756,
+          "average": 0.757756
+        },
+        "durations": [
+          {
+            "duration": 0.757756,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on SearchBox button",
+    "steps": [
+      {
+        "name": "I click on SearchBox button",
+        "aggregatedDurations": {
+          "median": 0.08613,
+          "average": 0.08613
+        },
+        "durations": [
+          {
+            "duration": 0.08613,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am navigated to Search result page",
+    "steps": [
+      {
+        "name": "I am navigated to Search result page",
+        "aggregatedDurations": {
+          "median": 0.184544,
+          "average": 0.184544
+        },
+        "durations": [
+          {
+            "duration": 0.184544,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

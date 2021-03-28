@@ -1,0 +1,32 @@
+
+@smoketest
+Scenario: Search with valid product name     # src/test/java/features/searchbox.feature:3
+  Given I am at Autozone homepage            # stepdefinitions.SearchBoxStepDefinition.i_am_at_autozone_homepage()
+  And I type valid product name in SearchBox # stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box()
+      java.lang.IllegalMonitorStateException
+	at java.base/java.lang.Object.wait(Native Method)
+	at homepage.Homepage.typeInSearchbox(Homepage.java:40)
+	at stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box(SearchBoxStepDefinition.java:68)
+	at ✽.I type valid product name in SearchBox(file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:5)
+
+
+    Embedding demo1 [image/png 738710 bytes]
+
+  When I press Enter button on keyboard      # stepdefinitions.SearchBoxStepDefinition.i_press_enter_button_on_keyboard()
+  Then I am navigated to Search result page  # stepdefinitions.SearchBoxStepDefinition.i_am_navigated_to_search_result_page()
+
+@mamun
+Scenario: Search with Invalid product name   # src/test/java/features/searchbox.feature:10
+  Given I am at Autozone homepage            # stepdefinitions.SearchBoxStepDefinition.i_am_at_autozone_homepage()
+  And I type valid product name in SearchBox # stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box()
+      java.lang.IllegalMonitorStateException
+	at java.base/java.lang.Object.wait(Native Method)
+	at homepage.Homepage.typeInSearchbox(Homepage.java:40)
+	at stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box(SearchBoxStepDefinition.java:68)
+	at ✽.I type valid product name in SearchBox(file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:12)
+
+
+    Embedding demo1 [image/png 738710 bytes]
+
+  When I press Enter button on keyboard      # stepdefinitions.SearchBoxStepDefinition.i_press_enter_button_on_keyboard()
+  Then I am navigated to Search result page  # stepdefinitions.SearchBoxStepDefinition.i_am_navigated_to_search_result_page()

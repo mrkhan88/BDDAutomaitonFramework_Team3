@@ -1,0 +1,24 @@
+[
+  {
+    "source": "I am at Autozone homepage",
+    "steps": [
+      {
+        "name": "I am at Autozone homepage",
+        "aggregatedDurations": {
+          "median": 4.4879785,
+          "average": 4.4879785
+        },
+        "durations": [
+          {
+            "duration": 4.708125,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:4"
+          },
+          {
+            "duration": 4.267832,
+            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]
