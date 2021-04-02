@@ -1,52 +1,106 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.12">
-    <testcase classname="Amazon searchBox test" name="Search with valid product name" time="5.397">
-        <system-out>
-            <![CDATA[Given I am at Boostmobile homepage..........................................passed
-And I click on Search.......................................................passed
-And I type valid product name in SearchBox..................................passed
-When I click on SearchBox button............................................passed
-Then I am navigated to Search result page...................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Amazon searchBox test" name="Search with invalid product name" time="24.493">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.addsearch.placeholder-shown&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mamuns-MacBook-Pro.local', ip: '2603:7000:c700:15c3:0:0:0:158f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/0v/12kcwjz12sz...}, goog:chromeOptions: {debuggerAddress: localhost:59827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cd860f5bbf49089ad2538025b3166d55&#10;*** Element info: {Using=css selector, value=.addsearch.placeholder-shown}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am at Boostmobile homepage..........................................passed
-And I type valid product name in SearchBox..................................failed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.888">
+    <testcase classname="Amazon searchBox test" name="Search with valid product name" time="20.538">
+        <failure message="Timed out waiting for driver server to start.&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'TRAX', ip: '192.168.86.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given I am at Boostmobile homepage..........................................failed
+And I click on Search.......................................................skipped
+And I type valid product name in SearchBox..................................skipped
 When I click on SearchBox button............................................skipped
 Then I am navigated to Search result page...................................skipped
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".addsearch.placeholder-shown"}
-  (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mamuns-MacBook-Pro.local', ip: '2603:7000:c700:15c3:0:0:0:158f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/0v/12kcwjz12sz...}, goog:chromeOptions: {debuggerAddress: localhost:59827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cd860f5bbf49089ad2538025b3166d55
-*** Element info: {Using=css selector, value=.addsearch.placeholder-shown}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+System info: host: 'TRAX', ip: '192.168.86.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy26.sendKeys(Unknown Source)
-	at homepage.Homepage.typeProductnameOnSearchBox(Homepage.java:23)
-	at stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box(SearchBoxStepDefinition.java:51)
-	at ✽.I type valid product name in SearchBox(file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:13)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage(SearchBoxStepDefinition.java:43)
+	at ✽.I am at Boostmobile homepage(file:///C:/Users/ExTraxex/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:4)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:9679/status] to be available after 20007 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage(SearchBoxStepDefinition.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 67 more
 ]]>
         </failure>
     </testcase>
