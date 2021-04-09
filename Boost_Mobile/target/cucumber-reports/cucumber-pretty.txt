@@ -1,25 +1,113 @@
 
-@smoketest
-Scenario: Search with valid product name     # src/test/java/features/searchbox.feature:3
-  Given I am at Boostmobile homepage         # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
-  And I click on Search                      # stepdefinitions.SearchBoxStepDefinition.i_click_on_search()
-  And I type valid product name in SearchBox # stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box()
-  When I click on SearchBox button           # stepdefinitions.SearchBoxStepDefinition.i_click_on_search_box_button()
-  Then I am navigated to Search result page  # stepdefinitions.SearchBoxStepDefinition.i_am_navigated_to_search_result_page()
+@Test1
+Scenario: Scenario 1                # src/test/java/features/boostmobilemethod.feature:4
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on all phones        # stepdefinitions.BoostMobileStepDefinition.i_click_on_all_phones()
+  Then phones is displayed          # stepdefinitions.BoostMobileStepDefinition.phones_is_displayed()
 
-@mamun
-Scenario: Search with invalid product name   # src/test/java/features/searchbox.feature:11
-  Given I am at Boostmobile homepage         # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
-  And I type valid product name in SearchBox # stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".addsearch.placeholder-shown"}
-  (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+@Test2
+Scenario: Scenario 2                # src/test/java/features/boostmobilemethod.feature:11
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on iphone            # stepdefinitions.Iphone.i_click_on_iphone()
+  Then phones is displayed          # stepdefinitions.BoostMobileStepDefinition.phones_is_displayed()
+
+@Test3
+Scenario: Scenario 3                # src/test/java/features/boostmobilemethod.feature:18
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on android           # stepdefinitions.Android.i_click_on_android()
+  Then phones is displayed          # stepdefinitions.BoostMobileStepDefinition.phones_is_displayed()
+
+@Test4
+Scenario: Scenario 4                     # src/test/java/features/boostmobilemethod.feature:24
+  Given Im at Boost Mobile homepage      # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on bring your phone       # stepdefinitions.BringYourPhone.i_click_on_bring_your_phone()
+  Then bring your own phone is displayed # stepdefinitions.BringYourPhone.bring_your_own_phone_is_displayed()
+
+@Test5
+Scenario: Scenario 5                # src/test/java/features/boostmobilemethod.feature:30
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on online deals      # stepdefinitions.OnlineDeals.i_click_on_online_deals()
+  Then online deals is displayed    # stepdefinitions.OnlineDeals.online_deals_is_displayed()
+
+@Test6
+Scenario: Scenario 6                # src/test/java/features/boostmobilemethod.feature:36
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on boost up          # stepdefinitions.BoostUp.i_click_on_boost_up()
+  Then boost up is displayed        # stepdefinitions.BoostUp.boost_up_is_displayed()
+
+@Test7
+Scenario: Scenario 7                # src/test/java/features/boostmobilemethod.feature:42
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on newsroom          # stepdefinitions.Newsroom.i_click_on_newsroom()
+  Then newsroom is displayed        # stepdefinitions.Newsroom.newsroom_is_displayed()
+
+@Test8
+Scenario: Scenario 8                # src/test/java/features/boostmobilemethod.feature:48
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on careers           # stepdefinitions.Careers.i_click_on_careers()
+  Then careers is displayed         # stepdefinitions.Careers.careers_is_displayed()
+
+@Test9
+Scenario: Scenario 9                              # src/test/java/features/boostmobilemethod.feature:54
+  Given Im at Boost Mobile homepage               # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on become an affiliate             # stepdefinitions.BecomeAnAffiliate.i_click_on_become_an_affiliate()
+  Then it pays to become a affiliate is displayed # stepdefinitions.BecomeAnAffiliate.it_pays_to_become_a_affiliate_is_displayed()
+
+@Test10
+Scenario: Scenario 10                      # src/test/java/features/boostmobilemethod.feature:60
+  Given Im at Boost Mobile homepage        # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on retailer opportunities   # stepdefinitions.RetailerOpportunities.i_click_on_retailer_opportunities()
+  Then retailer opportunities is displayed # stepdefinitions.RetailerOpportunities.retailer_opportunities_is_displayed()
+
+@Test11
+Scenario: Scenario 11                # src/test/java/features/boostmobilemethod.feature:66
+  Given Im at Boost Mobile homepage  # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on why choose boost   # stepdefinitions.WhyChooseBoost.i_click_on_why_choose_boost()
+  Then why choose boost is displayed # stepdefinitions.WhyChooseBoost.why_choose_boost_is_displayed()
+
+@Test12
+Scenario: Scenario 12                         # src/test/java/features/boostmobilemethod.feature:72
+  Given Im at Boost Mobile homepage           # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on retail real estate          # stepdefinitions.RetailRealEstate.i_click_on_retail_real_estate()
+  Then real estate opportunities is displayed # stepdefinitions.RetailRealEstate.real_estate_opportunities_is_displayed()
+
+@Test13
+Scenario: Scenario 13               # src/test/java/features/boostmobilemethod.feature:78
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on phone plans       # stepdefinitions.PhonePlans.i_click_on_phone_plans()
+  Then shrink it is displayed       # stepdefinitions.PhonePlans.shrink_it_is_displayed()
+
+@Test14
+Scenario: Scenario 14               # src/test/java/features/boostmobilemethod.feature:84
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on add on services   # stepdefinitions.AddOnServices.i_click_on_add_on_services()
+  Then add on services is displayed # stepdefinitions.AddOnServices.add_on_services_is_displayed()
+
+@Test15
+Scenario: Scenario 15                      # src/test/java/features/boostmobilemethod.feature:90
+  Given Im at Boost Mobile homepage        # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on international services   # stepdefinitions.InternationalServices.i_click_on_international_services()
+  Then international services is displayed # stepdefinitions.InternationalServices.international_services_is_displayed()
+
+@Test16
+Scenario: Scenario 16                               # src/test/java/features/boostmobilemethod.feature:96
+  Given Im at Boost Mobile homepage                 # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on nationwide coverage map           # stepdefinitions.NationwideCoverageMap.i_click_on_nationwide_coverage_map()
+  Then Nationwide network coverage map is displayed # stepdefinitions.NationwideCoverageMap.nationwide_network_coverage_map_is_displayed()
+
+@Test17
+Scenario: Scenario 17                             # src/test/java/features/boostmobilemethod.feature:102
+  Given Im at Boost Mobile homepage               # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on expanded network coverage map   # stepdefinitions.ExpandedNetworkCoverageMap.i_click_on_expanded_network_coverage_map()
+  Then expanded network coverage map is displayed # stepdefinitions.ExpandedNetworkCoverageMap.expanded_network_coverage_map_is_displayed()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mamuns-MacBook-Pro.local', ip: '2603:7000:c700:15c3:0:0:0:158f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+System info: host: 'DESKTOP-V0G74RJ', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/0v/12kcwjz12sz...}, goog:chromeOptions: {debuggerAddress: localhost:59827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cd860f5bbf49089ad2538025b3166d55
-*** Element info: {Using=css selector, value=.addsearch.placeholder-shown}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Jarin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a15e153fbfb76073c042c42d8f927101
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -30,19 +118,128 @@ Session ID: cd860f5bbf49089ad2538025b3166d55
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy26.sendKeys(Unknown Source)
-	at homepage.Homepage.typeProductnameOnSearchBox(Homepage.java:23)
-	at stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box(SearchBoxStepDefinition.java:51)
-	at ✽.I type valid product name in SearchBox(file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:13)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at jdk.internal.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
+	at homepage.ExpandedNetworkCoverageMap.checkExpandedNetworkCoverageMap1(ExpandedNetworkCoverageMap.java:22)
+	at stepdefinitions.ExpandedNetworkCoverageMap.expanded_network_coverage_map_is_displayed(ExpandedNetworkCoverageMap.java:46)
+	at ✽.expanded network coverage map is displayed(file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:105)
 
 
-    Embedding demo1 [image/png 196393 bytes]
+    Embedding demo1 [image/png 330412 bytes]
 
-  When I click on SearchBox button           # stepdefinitions.SearchBoxStepDefinition.i_click_on_search_box_button()
-  Then I am navigated to Search result page  # stepdefinitions.SearchBoxStepDefinition.i_am_navigated_to_search_result_page()
+
+    Embedding demo1 [image/png 221167 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+    Embedding demo1 [image/png 221106 bytes]
+
+
+@Test18
+Scenario: Scenario 18                   # src/test/java/features/boostmobilemethod.feature:108
+  Given Im at Boost Mobile homepage     # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on manage account        # stepdefinitions.ManageAccount.i_click_on_manage_account()
+  Then sign in to my boost is displayed # stepdefinitions.ManageAccount.sign_in_to_my_boost_is_displayed()
+
+@Test19
+Scenario: Scenario 19                 # src/test/java/features/boostmobilemethod.feature:114
+  Given Im at Boost Mobile homepage   # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on activate            # stepdefinitions.Activate.i_click_on_activate()
+  Then activate a device is displayed # stepdefinitions.Activate.activate_a_device_is_displayed()
+
+@Test20
+Scenario: Scenario 20               # src/test/java/features/boostmobilemethod.feature:120
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on ReBoost           # stepdefinitions.ReBoost.i_click_on_re_boost()
+  Then ReBoost is displayed         # stepdefinitions.ReBoost.re_boost_is_displayed()
+
+@Test23
+Scenario: Scenario 23               # src/test/java/features/boostmobilemethod.feature:138
+  Given Im at Boost Mobile homepage # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on order status      # stepdefinitions.OrderStatus.i_click_on_order_status()
+  Then order status is displayed    # stepdefinitions.OrderStatus.order_status_is_displayed()
+
+@Test24
+Scenario: Scenario 24                  # src/test/java/features/boostmobilemethod.feature:144
+  Given Im at Boost Mobile homepage    # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on plans and services   # stepdefinitions.PlansAndServices.i_click_on_plans_and_services()
+  Then plans and services is displayed # stepdefinitions.PlansAndServices.plans_and_services_is_displayed()
+
+@Test25
+Scenario: Scenario 25                  # src/test/java/features/boostmobilemethod.feature:151
+  Given Im at Boost Mobile homepage    # stepdefinitions.BoostMobileStepDefinition.im_at_boost_mobile_homepage()
+  When I click on phones and devices   # stepdefinitions.PhonesAndDevices.i_click_on_phones_and_devices()
+  Then phones and devices is displayed # stepdefinitions.PhonesAndDevices.phones_and_devices_is_displayed()

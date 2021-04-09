@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
         publish = true,
 //            tags = "(@mahmud) and (not @pending)"
 //         tags = "(@smokeTest or @RegressionTest or @IntegrationTest ) and (not @pending)"
-        tags = "(@smoketest or @mamun ) "
+        tags = "(@Test1)"
 
 )
 

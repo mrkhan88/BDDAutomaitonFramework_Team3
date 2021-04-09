@@ -1,21 +1,35 @@
 [
   {
-    "source": "I am at Autozone homepage",
+    "source": "Im at AutoZone homepage",
     "steps": [
       {
-        "name": "I am at Autozone homepage",
+        "name": "Im at AutoZone homepage",
         "aggregatedDurations": {
-          "median": 4.4879785,
-          "average": 4.4879785
+          "median": 13.869186,
+          "average": 13.869186
         },
         "durations": [
           {
-            "duration": 4.708125,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:4"
-          },
+            "duration": 13.869186,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/autozonemethod.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on vehicle make",
+    "steps": [
+      {
+        "name": "I click on vehicle make",
+        "aggregatedDurations": {
+          "median": 1.1859804,
+          "average": 1.1859804
+        },
+        "durations": [
           {
-            "duration": 4.267832,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:11"
+            "duration": 1.1859804,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/autozonemethod.feature:6"
           }
         ]
       }

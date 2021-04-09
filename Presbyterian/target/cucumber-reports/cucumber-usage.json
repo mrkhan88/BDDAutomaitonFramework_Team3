@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am on www.phs.org",
+    "steps": [
+      {
+        "name": "I am on www.phs.org",
+        "aggregatedDurations": {
+          "median": 6.5803184,
+          "average": 6.5803184
+        },
+        "durations": [
+          {
+            "duration": 6.5803184,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Presbyterian/src/test/java/features/presbyterianmethod.feature:170"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on schedule an urgent care appointment",
+    "steps": [
+      {
+        "name": "I click on schedule an urgent care appointment",
+        "aggregatedDurations": {
+          "median": 3.5687989,
+          "average": 3.5687989
+        },
+        "durations": [
+          {
+            "duration": 3.5687989,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Presbyterian/src/test/java/features/presbyterianmethod.feature:171"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on about our quality doctors",
+    "steps": [
+      {
+        "name": "I click on about our quality doctors",
+        "aggregatedDurations": {
+          "median": 3.1390276,
+          "average": 3.1390276
+        },
+        "durations": [
+          {
+            "duration": 3.1390276,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Presbyterian/src/test/java/features/presbyterianmethod.feature:172"
+          }
+        ]
+      }
+    ]
+  }
+]

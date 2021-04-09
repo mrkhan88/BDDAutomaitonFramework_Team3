@@ -29,6 +29,7 @@ public class Homepage extends WebAPI {
 //        searchButton1.click();
     }
     public void navigatedToSearchResult(){
+
         Assert.assertTrue(driver.getCurrentUrl().contains(searchText));
     }
 

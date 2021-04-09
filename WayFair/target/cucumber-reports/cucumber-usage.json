@@ -1,0 +1,20 @@
+[
+  {
+    "source": "I am on wayfair.com",
+    "steps": [
+      {
+        "name": "I am on wayfair.com",
+        "aggregatedDurations": {
+          "median": 31.7441573,
+          "average": 31.7441573
+        },
+        "durations": [
+          {
+            "duration": 31.7441573,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/wayfairmethod.feature:20"
+          }
+        ]
+      }
+    ]
+  }
+]

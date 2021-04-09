@@ -1,32 +1,148 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.12">
-    <testcase classname="Amazon searchBox test" name="Search with valid product name" time="5.397">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="23" time="418.12">
+    <testcase classname="Boost Mobile test" name="Scenario 1" time="14.73">
         <system-out>
-            <![CDATA[Given I am at Boostmobile homepage..........................................passed
-And I click on Search.......................................................passed
-And I type valid product name in SearchBox..................................passed
-When I click on SearchBox button............................................passed
-Then I am navigated to Search result page...................................passed
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on all phones..................................................passed
+Then phones is displayed....................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Amazon searchBox test" name="Search with invalid product name" time="24.493">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.addsearch.placeholder-shown&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mamuns-MacBook-Pro.local', ip: '2603:7000:c700:15c3:0:0:0:158f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/0v/12kcwjz12sz...}, goog:chromeOptions: {debuggerAddress: localhost:59827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cd860f5bbf49089ad2538025b3166d55&#10;*** Element info: {Using=css selector, value=.addsearch.placeholder-shown}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am at Boostmobile homepage..........................................passed
-And I type valid product name in SearchBox..................................failed
-When I click on SearchBox button............................................skipped
-Then I am navigated to Search result page...................................skipped
+    <testcase classname="Boost Mobile test" name="Scenario 2" time="13.162">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on iphone......................................................passed
+Then phones is displayed....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 3" time="15.048">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on android.....................................................passed
+Then phones is displayed....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 4" time="13.547">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on bring your phone............................................passed
+Then bring your own phone is displayed......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 5" time="16.001">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on online deals................................................passed
+Then online deals is displayed..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 6" time="14.107">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on boost up....................................................passed
+Then boost up is displayed..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 7" time="17.109">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on newsroom....................................................passed
+Then newsroom is displayed..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 8" time="15.608">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on careers.....................................................passed
+Then careers is displayed...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 9" time="16.485">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on become an affiliate.........................................passed
+Then it pays to become a affiliate is displayed.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 10" time="19.009">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on retailer opportunities......................................passed
+Then retailer opportunities is displayed....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 11" time="16.343">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on why choose boost............................................passed
+Then why choose boost is displayed..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 12" time="17.539">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on retail real estate..........................................passed
+Then real estate opportunities is displayed.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 13" time="18.891">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on phone plans.................................................passed
+Then shrink it is displayed.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 14" time="16.551">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on add on services.............................................passed
+Then add on services is displayed...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 15" time="18.384">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on international services......................................passed
+Then international services is displayed....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 16" time="24.081">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on nationwide coverage map.....................................passed
+Then Nationwide network coverage map is displayed...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 17" time="34.466">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-V0G74RJ', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Jarin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a15e153fbfb76073c042c42d8f927101" type="org.openqa.selenium.StaleElementReferenceException">
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on expanded network coverage map...............................passed
+Then expanded network coverage map is displayed.............................failed
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".addsearch.placeholder-shown"}
-  (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mamuns-MacBook-Pro.local', ip: '2603:7000:c700:15c3:0:0:0:158f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+System info: host: 'DESKTOP-V0G74RJ', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/0v/12kcwjz12sz...}, goog:chromeOptions: {debuggerAddress: localhost:59827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cd860f5bbf49089ad2538025b3166d55
-*** Element info: {Using=css selector, value=.addsearch.placeholder-shown}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Jarin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a15e153fbfb76073c042c42d8f927101
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -37,17 +153,65 @@ Session ID: cd860f5bbf49089ad2538025b3166d55
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy26.sendKeys(Unknown Source)
-	at homepage.Homepage.typeProductnameOnSearchBox(Homepage.java:23)
-	at stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box(SearchBoxStepDefinition.java:51)
-	at ✽.I type valid product name in SearchBox(file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:13)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at jdk.internal.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
+	at homepage.ExpandedNetworkCoverageMap.checkExpandedNetworkCoverageMap1(ExpandedNetworkCoverageMap.java:22)
+	at stepdefinitions.ExpandedNetworkCoverageMap.expanded_network_coverage_map_is_displayed(ExpandedNetworkCoverageMap.java:46)
+	at ✽.expanded network coverage map is displayed(file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:105)
 ]]>
         </failure>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 18" time="15.6">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on manage account..............................................passed
+Then sign in to my boost is displayed.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 19" time="26.201">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on activate....................................................passed
+Then activate a device is displayed.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 20" time="17.692">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on ReBoost.....................................................passed
+Then ReBoost is displayed...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 23" time="17.519">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on order status................................................passed
+Then order status is displayed..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 24" time="19.163">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on plans and services..........................................passed
+Then plans and services is displayed........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Boost Mobile test" name="Scenario 25" time="18.999">
+        <system-out>
+            <![CDATA[Given Im at Boost Mobile homepage...........................................passed
+When I click on phones and devices..........................................passed
+Then phones and devices is displayed........................................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>

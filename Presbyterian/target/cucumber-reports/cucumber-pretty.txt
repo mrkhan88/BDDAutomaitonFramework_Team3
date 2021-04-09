@@ -1,0 +1,6 @@
+
+@Test25
+Scenario: Scenario 25                                 # src/test/java/features/presbyterianmethod.feature:169
+  Given I am on www.phs.org                           # stepdefinitions.ServicesAndCenters.i_am_on_www_phs_org()
+  When I click on schedule an urgent care appointment # stepdefinitions.ServicesAndCenters.i_click_on_schedule_an_urgent_care_appointment()
+  Then I click on about our quality doctors           # stepdefinitions.AboutOurQualityDoctors.i_click_on_about_our_quality_doctors()

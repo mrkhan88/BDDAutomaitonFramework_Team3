@@ -1,93 +1,887 @@
 [
   {
-    "source": "I am at Boostmobile homepage",
+    "source": "Im at Boost Mobile homepage",
     "steps": [
       {
-        "name": "I am at Boostmobile homepage",
+        "name": "Im at Boost Mobile homepage",
         "aggregatedDurations": {
-          "median": 3.916624,
-          "average": 3.916624
+          "median": 11.636824,
+          "average": 11.291343417
         },
         "durations": [
           {
-            "duration": 4.046995,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:4"
+            "duration": 9.8160746,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:5"
           },
           {
-            "duration": 3.786253,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:12"
+            "duration": 8.4945424,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:12"
+          },
+          {
+            "duration": 9.1666744,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:19"
+          },
+          {
+            "duration": 9.3876955,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:25"
+          },
+          {
+            "duration": 10.7549047,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:31"
+          },
+          {
+            "duration": 9.5904928,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:37"
+          },
+          {
+            "duration": 11.829566,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:43"
+          },
+          {
+            "duration": 10.0864984,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:49"
+          },
+          {
+            "duration": 11.636824,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:55"
+          },
+          {
+            "duration": 13.2797803,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:61"
+          },
+          {
+            "duration": 11.5686909,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:67"
+          },
+          {
+            "duration": 12.1881787,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:73"
+          },
+          {
+            "duration": 13.3684952,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:79"
+          },
+          {
+            "duration": 11.0833475,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:85"
+          },
+          {
+            "duration": 12.6476397,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:91"
+          },
+          {
+            "duration": 12.4195232,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:97"
+          },
+          {
+            "duration": 11.6455174,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:103"
+          },
+          {
+            "duration": 11.3341909,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:109"
+          },
+          {
+            "duration": 11.8584212,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:115"
+          },
+          {
+            "duration": 11.8386083,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:121"
+          },
+          {
+            "duration": 11.4766894,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:139"
+          },
+          {
+            "duration": 12.2508198,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:145"
+          },
+          {
+            "duration": 11.9777233,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:152"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Search",
+    "source": "I click on all phones",
     "steps": [
       {
-        "name": "I click on Search",
+        "name": "I click on all phones",
         "aggregatedDurations": {
-          "median": 0.131036,
-          "average": 0.131036
+          "median": 0.375965,
+          "average": 0.375965
         },
         "durations": [
           {
-            "duration": 0.131036,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:5"
+            "duration": 0.375965,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:6"
           }
         ]
       }
     ]
   },
   {
-    "source": "I type valid product name in SearchBox",
+    "source": "phones is displayed",
     "steps": [
       {
-        "name": "I type valid product name in SearchBox",
+        "name": "phones is displayed",
         "aggregatedDurations": {
-          "median": 0.757756,
-          "average": 0.757756
+          "median": 3.1853521,
+          "average": 3.3641497
         },
         "durations": [
           {
-            "duration": 0.757756,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:6"
+            "duration": 3.1853521,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:7"
+          },
+          {
+            "duration": 3.1554419,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:14"
+          },
+          {
+            "duration": 3.7516551,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:21"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on SearchBox button",
+    "source": "I click on iphone",
     "steps": [
       {
-        "name": "I click on SearchBox button",
+        "name": "I click on iphone",
         "aggregatedDurations": {
-          "median": 0.08613,
-          "average": 0.08613
+          "median": 0.559948,
+          "average": 0.559948
         },
         "durations": [
           {
-            "duration": 0.08613,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:7"
+            "duration": 0.559948,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:13"
           }
         ]
       }
     ]
   },
   {
-    "source": "I am navigated to Search result page",
+    "source": "I click on android",
     "steps": [
       {
-        "name": "I am navigated to Search result page",
+        "name": "I click on android",
         "aggregatedDurations": {
-          "median": 0.184544,
-          "average": 0.184544
+          "median": 0.7919272,
+          "average": 0.7919272
         },
         "durations": [
           {
-            "duration": 0.184544,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:8"
+            "duration": 0.7919272,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on bring your phone",
+    "steps": [
+      {
+        "name": "I click on bring your phone",
+        "aggregatedDurations": {
+          "median": 0.527953,
+          "average": 0.527953
+        },
+        "durations": [
+          {
+            "duration": 0.527953,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "bring your own phone is displayed",
+    "steps": [
+      {
+        "name": "bring your own phone is displayed",
+        "aggregatedDurations": {
+          "median": 2.5953568,
+          "average": 2.5953568
+        },
+        "durations": [
+          {
+            "duration": 2.5953568,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on online deals",
+    "steps": [
+      {
+        "name": "I click on online deals",
+        "aggregatedDurations": {
+          "median": 0.8799188,
+          "average": 0.8799188
+        },
+        "durations": [
+          {
+            "duration": 0.8799188,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "online deals is displayed",
+    "steps": [
+      {
+        "name": "online deals is displayed",
+        "aggregatedDurations": {
+          "median": 3.1197149,
+          "average": 3.1197149
+        },
+        "durations": [
+          {
+            "duration": 3.1197149,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on boost up",
+    "steps": [
+      {
+        "name": "I click on boost up",
+        "aggregatedDurations": {
+          "median": 2.911734,
+          "average": 2.911734
+        },
+        "durations": [
+          {
+            "duration": 2.911734,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "boost up is displayed",
+    "steps": [
+      {
+        "name": "boost up is displayed",
+        "aggregatedDurations": {
+          "median": 0.2239802,
+          "average": 0.2239802
+        },
+        "durations": [
+          {
+            "duration": 0.2239802,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on newsroom",
+    "steps": [
+      {
+        "name": "I click on newsroom",
+        "aggregatedDurations": {
+          "median": 3.6236668,
+          "average": 3.6236668
+        },
+        "durations": [
+          {
+            "duration": 3.6236668,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "newsroom is displayed",
+    "steps": [
+      {
+        "name": "newsroom is displayed",
+        "aggregatedDurations": {
+          "median": 0.127991,
+          "average": 0.127991
+        },
+        "durations": [
+          {
+            "duration": 0.127991,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on careers",
+    "steps": [
+      {
+        "name": "I click on careers",
+        "aggregatedDurations": {
+          "median": 0.6559399,
+          "average": 0.6559399
+        },
+        "durations": [
+          {
+            "duration": 0.6559399,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "careers is displayed",
+    "steps": [
+      {
+        "name": "careers is displayed",
+        "aggregatedDurations": {
+          "median": 3.2477027,
+          "average": 3.2477027
+        },
+        "durations": [
+          {
+            "duration": 3.2477027,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on become an affiliate",
+    "steps": [
+      {
+        "name": "I click on become an affiliate",
+        "aggregatedDurations": {
+          "median": 3.7036617,
+          "average": 3.7036617
+        },
+        "durations": [
+          {
+            "duration": 3.7036617,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "it pays to become a affiliate is displayed",
+    "steps": [
+      {
+        "name": "it pays to become a affiliate is displayed",
+        "aggregatedDurations": {
+          "median": 0.087992,
+          "average": 0.087992
+        },
+        "durations": [
+          {
+            "duration": 0.087992,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on retailer opportunities",
+    "steps": [
+      {
+        "name": "I click on retailer opportunities",
+        "aggregatedDurations": {
+          "median": 0.7599304,
+          "average": 0.7599304
+        },
+        "durations": [
+          {
+            "duration": 0.7599304,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "retailer opportunities is displayed",
+    "steps": [
+      {
+        "name": "retailer opportunities is displayed",
+        "aggregatedDurations": {
+          "median": 4.0316501,
+          "average": 4.0316501
+        },
+        "durations": [
+          {
+            "duration": 4.0316501,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on why choose boost",
+    "steps": [
+      {
+        "name": "I click on why choose boost",
+        "aggregatedDurations": {
+          "median": 0.5359497,
+          "average": 0.5359497
+        },
+        "durations": [
+          {
+            "duration": 0.5359497,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "why choose boost is displayed",
+    "steps": [
+      {
+        "name": "why choose boost is displayed",
+        "aggregatedDurations": {
+          "median": 3.143711,
+          "average": 3.143711
+        },
+        "durations": [
+          {
+            "duration": 3.143711,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on retail real estate",
+    "steps": [
+      {
+        "name": "I click on retail real estate",
+        "aggregatedDurations": {
+          "median": 4.1996151,
+          "average": 4.1996151
+        },
+        "durations": [
+          {
+            "duration": 4.1996151,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "real estate opportunities is displayed",
+    "steps": [
+      {
+        "name": "real estate opportunities is displayed",
+        "aggregatedDurations": {
+          "median": 0.0799939,
+          "average": 0.0799939
+        },
+        "durations": [
+          {
+            "duration": 0.0799939,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on phone plans",
+    "steps": [
+      {
+        "name": "I click on phone plans",
+        "aggregatedDurations": {
+          "median": 4.1116235,
+          "average": 4.1116235
+        },
+        "durations": [
+          {
+            "duration": 4.1116235,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "shrink it is displayed",
+    "steps": [
+      {
+        "name": "shrink it is displayed",
+        "aggregatedDurations": {
+          "median": 0.0959923,
+          "average": 0.0959923
+        },
+        "durations": [
+          {
+            "duration": 0.0959923,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on add on services",
+    "steps": [
+      {
+        "name": "I click on add on services",
+        "aggregatedDurations": {
+          "median": 4.3276043,
+          "average": 4.3276043
+        },
+        "durations": [
+          {
+            "duration": 4.3276043,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "add on services is displayed",
+    "steps": [
+      {
+        "name": "add on services is displayed",
+        "aggregatedDurations": {
+          "median": 0.1359931,
+          "average": 0.1359931
+        },
+        "durations": [
+          {
+            "duration": 0.1359931,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on international services",
+    "steps": [
+      {
+        "name": "I click on international services",
+        "aggregatedDurations": {
+          "median": 1.8238326,
+          "average": 1.8238326
+        },
+        "durations": [
+          {
+            "duration": 1.8238326,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "international services is displayed",
+    "steps": [
+      {
+        "name": "international services is displayed",
+        "aggregatedDurations": {
+          "median": 2.8157429,
+          "average": 2.8157429
+        },
+        "durations": [
+          {
+            "duration": 2.8157429,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:93"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on nationwide coverage map",
+    "steps": [
+      {
+        "name": "I click on nationwide coverage map",
+        "aggregatedDurations": {
+          "median": 10.2150646,
+          "average": 10.2150646
+        },
+        "durations": [
+          {
+            "duration": 10.2150646,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Nationwide network coverage map is displayed",
+    "steps": [
+      {
+        "name": "Nationwide network coverage map is displayed",
+        "aggregatedDurations": {
+          "median": 0.3279728,
+          "average": 0.3279728
+        },
+        "durations": [
+          {
+            "duration": 0.3279728,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on expanded network coverage map",
+    "steps": [
+      {
+        "name": "I click on expanded network coverage map",
+        "aggregatedDurations": {
+          "median": 0.6719388,
+          "average": 0.6719388
+        },
+        "durations": [
+          {
+            "duration": 0.6719388,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:104"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on manage account",
+    "steps": [
+      {
+        "name": "I click on manage account",
+        "aggregatedDurations": {
+          "median": 1.3038799,
+          "average": 1.3038799
+        },
+        "durations": [
+          {
+            "duration": 1.3038799,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "sign in to my boost is displayed",
+    "steps": [
+      {
+        "name": "sign in to my boost is displayed",
+        "aggregatedDurations": {
+          "median": 1.575859,
+          "average": 1.575859
+        },
+        "durations": [
+          {
+            "duration": 1.575859,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on activate",
+    "steps": [
+      {
+        "name": "I click on activate",
+        "aggregatedDurations": {
+          "median": 1.375874,
+          "average": 1.375874
+        },
+        "durations": [
+          {
+            "duration": 1.375874,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:116"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "activate a device is displayed",
+    "steps": [
+      {
+        "name": "activate a device is displayed",
+        "aggregatedDurations": {
+          "median": 12.0174166,
+          "average": 12.0174166
+        },
+        "durations": [
+          {
+            "duration": 12.0174166,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:117"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on ReBoost",
+    "steps": [
+      {
+        "name": "I click on ReBoost",
+        "aggregatedDurations": {
+          "median": 0.6959407,
+          "average": 0.6959407
+        },
+        "durations": [
+          {
+            "duration": 0.6959407,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:122"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "ReBoost is displayed",
+    "steps": [
+      {
+        "name": "ReBoost is displayed",
+        "aggregatedDurations": {
+          "median": 3.7196618,
+          "average": 3.7196618
+        },
+        "durations": [
+          {
+            "duration": 3.7196618,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:123"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on order status",
+    "steps": [
+      {
+        "name": "I click on order status",
+        "aggregatedDurations": {
+          "median": 4.0876252,
+          "average": 4.0876252
+        },
+        "durations": [
+          {
+            "duration": 4.0876252,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:140"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "order status is displayed",
+    "steps": [
+      {
+        "name": "order status is displayed",
+        "aggregatedDurations": {
+          "median": 0.4799564,
+          "average": 0.4799564
+        },
+        "durations": [
+          {
+            "duration": 0.4799564,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:141"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on plans and services",
+    "steps": [
+      {
+        "name": "I click on plans and services",
+        "aggregatedDurations": {
+          "median": 5.3675073,
+          "average": 5.3675073
+        },
+        "durations": [
+          {
+            "duration": 5.3675073,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:146"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "plans and services is displayed",
+    "steps": [
+      {
+        "name": "plans and services is displayed",
+        "aggregatedDurations": {
+          "median": 0.3519689,
+          "average": 0.3519689
+        },
+        "durations": [
+          {
+            "duration": 0.3519689,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:147"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on phones and devices",
+    "steps": [
+      {
+        "name": "I click on phones and devices",
+        "aggregatedDurations": {
+          "median": 5.8634652,
+          "average": 5.8634652
+        },
+        "durations": [
+          {
+            "duration": 5.8634652,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:153"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "phones and devices is displayed",
+    "steps": [
+      {
+        "name": "phones and devices is displayed",
+        "aggregatedDurations": {
+          "median": 0.0719931,
+          "average": 0.0719931
+        },
+        "durations": [
+          {
+            "duration": 0.0719931,
+            "location": "file:///C:/Users/Jarin/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/boostmobilemethod.feature:154"
           }
         ]
       }

@@ -36,6 +36,7 @@ public class SearchBoxStepDefinition extends WebAPI {
 
     @After
     public void closeBrowser(){
+
         cleanUp();
     }
 
