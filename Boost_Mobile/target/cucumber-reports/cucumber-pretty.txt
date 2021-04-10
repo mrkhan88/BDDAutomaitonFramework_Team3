@@ -1,13 +1,41 @@
 
 @aaka
-Scenario: Verify foot note links                      # src/test/java/features/searchbox.feature:19
-  Given I am at Boostmobile homepage                  # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
-  And I click on "All phones" AP                      # stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)
-  Then I verify that I am on the "All phones" AP page # stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)
+Scenario: Verify foot note links                       # src/test/java/features/searchbox.feature:45
+  Given I am at Boostmobile homepage                   # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
+  And I click on "Phone Plans" pp                      # stepdefinitions.SearchBoxStepDefinition.iClickOnPp(java.lang.String)
+  Then I verify that I am on the "Phone Plans" pp page # stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnThePpPage(java.lang.String)
 
 @aaka
-Scenario: verify clicking the back button takes you back to the homepage # src/test/java/features/searchbox.feature:25
-  Given I am at Boostmobile homepage                                     # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
-  And I click on "All phones" AP                                         # stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)
-  Then I verify that I am on the "All phones" AP page                    # stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)
+Scenario: verify clicking the back button takes you back to the homepage # src/test/java/features/searchbox.feature:51
+  And I click on "Phone Plans" pp                                        # stepdefinitions.SearchBoxStepDefinition.iClickOnPp(java.lang.String)
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-40L23IP', ip: '192.168.1.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at homepage.Homepage.clickOnPhonePlan(Homepage.java:64)
+	at stepdefinitions.SearchBoxStepDefinition.iClickOnPp(SearchBoxStepDefinition.java:108)
+	at ✽.I click on "Phone Plans" pp(file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:52)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-40L23IP', ip: '192.168.1.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.SearchBoxStepDefinition.tearDown(SearchBoxStepDefinition.java:27)
+
+  Then I verify that I am on the "Phone Plans" pp page                   # stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnThePpPage(java.lang.String)
   Then clicking the back button should take me back to the homepage      # stepdefinitions.SearchBoxStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()

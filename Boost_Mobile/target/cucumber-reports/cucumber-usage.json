@@ -5,79 +5,49 @@
       {
         "name": "I am at Boostmobile homepage",
         "aggregatedDurations": {
-          "median": 8.04078435,
-          "average": 8.04078435
+          "median": 8.25012,
+          "average": 8.25012
         },
         "durations": [
           {
-            "duration": 8.9160464,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:20"
-          },
-          {
-            "duration": 7.1655223,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:26"
+            "duration": 8.25012,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:46"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on {string} AP",
+    "source": "I click on {string} pp",
     "steps": [
       {
-        "name": "I click on \"All phones\" AP",
+        "name": "I click on \"Phone Plans\" pp",
         "aggregatedDurations": {
-          "median": 2.772613,
-          "average": 2.772613
+          "median": 2.6036216,
+          "average": 2.6036216
         },
         "durations": [
           {
-            "duration": 3.052567,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:21"
-          },
-          {
-            "duration": 2.492659,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:27"
+            "duration": 2.6036216,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:47"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify that I am on the {string} AP page",
+    "source": "I verify that I am on the {string} pp page",
     "steps": [
       {
-        "name": "I verify that I am on the \"All phones\" AP page",
+        "name": "I verify that I am on the \"Phone Plans\" pp page",
         "aggregatedDurations": {
-          "median": 0.1460268,
-          "average": 0.1460268
+          "median": 0.0175196,
+          "average": 0.0175196
         },
         "durations": [
           {
-            "duration": 0.277953,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:22"
-          },
-          {
-            "duration": 0.0141006,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:28"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "clicking the back button should take me back to the homepage",
-    "steps": [
-      {
-        "name": "clicking the back button should take me back to the homepage",
-        "aggregatedDurations": {
-          "median": 2.3393154,
-          "average": 2.3393154
-        },
-        "durations": [
-          {
-            "duration": 2.3393154,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:29"
+            "duration": 0.0175196,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:48"
           }
         ]
       }

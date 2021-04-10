@@ -3,15 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-10T18:13:33.667Z",
-        "line": 19,
+        "start_timestamp": "2021-04-10T18:27:44.150Z",
+        "line": 45,
         "name": "Verify foot note links",
         "description": "",
         "id": "amazon-searchbox-test;verify-foot-note-links",
         "after": [
           {
             "result": {
-              "duration": 892300600,
+              "duration": 1150803600,
               "status": "passed"
             },
             "match": {
@@ -24,13 +24,13 @@
         "steps": [
           {
             "result": {
-              "duration": 8916046400,
+              "duration": 8250120000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 30164900,
+                  "duration": 23186100,
                   "status": "passed"
                 },
                 "match": {
@@ -38,7 +38,7 @@
                 }
               }
             ],
-            "line": 20,
+            "line": 46,
             "name": "I am at Boostmobile homepage",
             "match": {
               "location": "stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()"
@@ -46,7 +46,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 1399400,
+                  "duration": 3260100,
                   "status": "passed"
                 },
                 "match": {
@@ -58,12 +58,13 @@
           },
           {
             "result": {
-              "duration": 3052567000,
+              "duration": 2603621600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 3313000,
                   "status": "passed"
                 },
                 "match": {
@@ -71,20 +72,21 @@
                 }
               }
             ],
-            "line": 21,
-            "name": "I click on \"All phones\" AP",
+            "line": 47,
+            "name": "I click on \"Phone Plans\" pp",
             "match": {
               "arguments": [
                 {
-                  "val": "\"All phones\"",
+                  "val": "\"Phone Plans\"",
                   "offset": 11
                 }
               ],
-              "location": "stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)"
+              "location": "stepdefinitions.SearchBoxStepDefinition.iClickOnPp(java.lang.String)"
             },
             "after": [
               {
                 "result": {
+                  "duration": 1687300,
                   "status": "passed"
                 },
                 "match": {
@@ -96,13 +98,12 @@
           },
           {
             "result": {
-              "duration": 277953000,
+              "duration": 17519600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 3456800,
                   "status": "passed"
                 },
                 "match": {
@@ -110,21 +111,21 @@
                 }
               }
             ],
-            "line": 22,
-            "name": "I verify that I am on the \"All phones\" AP page",
+            "line": 48,
+            "name": "I verify that I am on the \"Phone Plans\" pp page",
             "match": {
               "arguments": [
                 {
-                  "val": "\"All phones\"",
+                  "val": "\"Phone Plans\"",
                   "offset": 26
                 }
               ],
-              "location": "stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)"
+              "location": "stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnThePpPage(java.lang.String)"
             },
             "after": [
               {
                 "result": {
-                  "duration": 1590800,
+                  "duration": 1033200,
                   "status": "passed"
                 },
                 "match": {
@@ -142,15 +143,14 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-10T18:13:47.025Z",
-        "line": 25,
+        "start_timestamp": "2021-04-10T18:27:56.328Z",
+        "line": 51,
         "name": "verify clicking the back button takes you back to the homepage",
         "description": "",
         "id": "amazon-searchbox-test;verify-clicking-the-back-button-takes-you-back-to-the-homepage",
         "after": [
           {
             "result": {
-              "duration": 1284087600,
               "status": "passed"
             },
             "match": {
@@ -163,8 +163,9 @@
         "steps": [
           {
             "result": {
-              "duration": 7165522300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-40L23IP\u0027, ip: \u0027192.168.1.25\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy26.click(Unknown Source)\r\n\tat homepage.Homepage.clickOnPhonePlan(Homepage.java:64)\r\n\tat stepdefinitions.SearchBoxStepDefinition.iClickOnPp(SearchBoxStepDefinition.java:108)\r\n\tat ✽.I click on \"Phone Plans\" pp(file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:52)\r\n",
+              "duration": 23028700,
+              "status": "failed"
             },
             "before": [
               {
@@ -176,55 +177,23 @@
                 }
               }
             ],
-            "line": 26,
-            "name": "I am at Boostmobile homepage",
-            "match": {
-              "location": "stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1259700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2492659000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 996500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 27,
-            "name": "I click on \"All phones\" AP",
+            "line": 52,
+            "name": "I click on \"Phone Plans\" pp",
             "match": {
               "arguments": [
                 {
-                  "val": "\"All phones\"",
+                  "val": "\"Phone Plans\"",
                   "offset": 11
                 }
               ],
-              "location": "stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)"
+              "location": "stepdefinitions.SearchBoxStepDefinition.iClickOnPp(java.lang.String)"
             },
             "after": [
               {
                 "result": {
-                  "status": "passed"
+                  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-40L23IP\u0027, ip: \u0027192.168.1.25\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepdefinitions.SearchBoxStepDefinition.tearDown(SearchBoxStepDefinition.java:27)\r\n",
+                  "duration": 2053300,
+                  "status": "failed"
                 },
                 "match": {
                   "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
@@ -235,36 +204,33 @@
           },
           {
             "result": {
-              "duration": 14100600,
-              "status": "passed"
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 109800,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
                 }
               }
             ],
-            "line": 28,
-            "name": "I verify that I am on the \"All phones\" AP page",
+            "line": 53,
+            "name": "I verify that I am on the \"Phone Plans\" pp page",
             "match": {
               "arguments": [
                 {
-                  "val": "\"All phones\"",
+                  "val": "\"Phone Plans\"",
                   "offset": 26
                 }
               ],
-              "location": "stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)"
+              "location": "stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnThePpPage(java.lang.String)"
             },
             "after": [
               {
                 "result": {
-                  "duration": 1003800,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
@@ -275,20 +241,20 @@
           },
           {
             "result": {
-              "duration": 2339315400,
-              "status": "passed"
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "status": "passed"
+                  "duration": 996600,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
                 }
               }
             ],
-            "line": 29,
+            "line": 54,
             "name": "clicking the back button should take me back to the homepage",
             "match": {
               "location": "stepdefinitions.SearchBoxStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()"
@@ -296,8 +262,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 997600,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"

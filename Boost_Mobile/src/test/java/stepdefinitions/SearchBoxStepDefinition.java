@@ -91,4 +91,27 @@ public class SearchBoxStepDefinition extends WebAPI {
         homepage.checkHomePage();
     }
 
+    @And("I click on {string} i")
+    public void iClickOnI(String arg0) {
+        homepage.clickOnIphone();
+    }
+
+    @Then("I verify that I am on the {string} i page")
+    public void iVerifyThatIAmOnTheIPage(String arg0) {
+        String expectedText = "Shop our Best Prepaid No-Contract Cell Phones | Boost Mobile";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
+
+    @And("I click on {string} pp")
+    public void iClickOnPp(String arg0) {
+        homepage.clickOnPhonePlan();
+    }
+
+    @Then("I verify that I am on the {string} pp page")
+    public void iVerifyThatIAmOnThePpPage(String arg0) {
+        String expectedText = "Best Value No-Contract, Prepaid Phone Plans | Boost Mobile";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
 }

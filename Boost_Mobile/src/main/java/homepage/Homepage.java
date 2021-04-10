@@ -21,7 +21,10 @@ public class Homepage extends WebAPI {
     public WebElement AllPhones;
     @FindBy(xpath = "//*[@id='']")
     public WebElement HomePageLogo;
-
+    @FindBy(xpath = "//body/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ol[1]/li[2]/a[1]")
+    public WebElement Iphone;
+    @FindBy(xpath = "//body/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ol[1]/li[1]/a[1]")
+    public WebElement PhonePlan;
 
     public String expectedSearchText = "12 Pro Max";
 
@@ -51,6 +54,14 @@ public class Homepage extends WebAPI {
         String expectedText = "Affordable No-Contract, Prepaid Wireless | Boost Mobile";
         String ActualText = driver.getTitle();
         org.testng.Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
+
+    public void clickOnIphone(){
+        Iphone.click();
+    }
+
+    public void clickOnPhonePlan(){
+        PhonePlan.click();
     }
 
 
