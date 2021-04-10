@@ -41,6 +41,38 @@ Feature: Autozone searchBox test
     Then I verify that "cheese" should not be displayed as it is not a valid product
 
 
+    @null
+    Scenario: Verify that the shopping cart takes you to the correct page
+      # Given I am at Autozone homepage
+  And I click on the shopping cart button
+      And I verify that I am on the shopping cart page.
+      But i should not be on the Homepage
+
+
+  @null
+  Scenario: Verify that the clicking the back button after shopping cart takes you back to the homepage
+      # Given I am at Autozone homepage
+    And I click on the shopping cart button
+    And I verify that I am on the shopping cart page.
+    But i should not be on the Homepage
+    Then I click on the back button
+    And I should be on the Autozone Homepage
+
+
+
+  @aaka
+  Scenario: Verify that clicking the logo after shopping cart takes you back to the homepage
+      # Given I am at Autozone homepage
+    And I click on the shopping cart button
+    And I verify that I am on the shopping cart page.
+    But i should not be on the Homepage
+    Then I click on the Autozone logo
+    And I should be on the Autozone Homepage
+
+
+
+
+
 
 
 

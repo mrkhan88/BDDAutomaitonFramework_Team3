@@ -15,6 +15,8 @@ public class Homepage extends WebAPI {
     public static final String searchResultText_xp = "//span[@class='a-color-state a-text-bold']";
     public  String expectedText ="\"ipad air\"";
     public static final String autozoneSearchBoxLocator = "//input[@id='deskTopSearchInput']"; //xpath
+    public static final String shoppingCartButtonLocator= "//header/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[2]/a[1]/div[1]/img[1]"; //xpath
+    public static final String AutoZoneLogoLocator= "//header/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/a[1]/div[1]/div[1]/img[1]";//xpath
 
     public String searchText = "battery";
 
@@ -24,6 +26,10 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.XPATH, using = autozoneSearchBoxLocator) public WebElement autozoneSearchBox;
     //@FindBy(how = How.XPATH, using = closeCookies) public WebElement closeCookies1;
     @FindBy(xpath = "//h2[contains(text(),'spark plug')]") public WebElement sparkPlugText;
+    @FindBy(how = How.XPATH, using = shoppingCartButtonLocator) public WebElement shoppingCartButton;
+    @FindBy(how = How.XPATH, using = AutoZoneLogoLocator) public WebElement AutoZoneLogo;
+
+
 
 
     public void typeInSearchbox() throws InterruptedException {
@@ -50,8 +56,19 @@ public class Homepage extends WebAPI {
         Assert.assertEquals("Product does not match",expectedText,actualText);
     }
 
+    public void clickOnShoppingCart(){
+        shoppingCartButton.click();
+    }
+
+    public void clickOnAutoZoneLogo(){
+        AutoZoneLogo.click();
+    }
+
+
+    }
 
 
 
 
-}
+
+

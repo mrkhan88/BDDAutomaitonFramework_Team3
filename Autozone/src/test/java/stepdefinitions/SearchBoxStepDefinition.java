@@ -105,4 +105,42 @@ public class SearchBoxStepDefinition extends WebAPI {
         String ActualText = driver.getTitle();
         Assert.assertEquals(ActualText, expectedText, "Page title not match");
     }
+
+    @And("I click on the shopping cart button")
+    public void i_Click_On_The_Shopping_Cart_Button() {
+        homepage.clickOnShoppingCart();
+    }
+
+
+    @And("I verify that I am on the shopping cart page.")
+    public void i_Verify_That_I_Am_On_The_Shopping_Cart_Page() {
+        String expectedText = "Shopping Cart | AutoZone";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
+
+    @But("i should not be on the Homepage")
+    public void i_Should_Not_Be_On_The_Homepage() {
+        String expectedText = "Shopping Cart | AutoZone";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
+
+    @Then("I click on the back button")
+    public void iClickOnTheBackButton() {
+        homepage.navigateBack();
+    }
+
+    @And("I should be on the Autozone Homepage")
+    public void iShouldBeOnTheAutozoneHomepage() {
+        String expectedText = "AutoZone - Auto Parts, Accessories, and Advice for Cars & Trucks";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
+
+    @Then("I click on the Autozone logo")
+    public void iClickOnTheAutozoneLogo() {
+        homepage.clickOnAutoZoneLogo();
+    }
 }
+

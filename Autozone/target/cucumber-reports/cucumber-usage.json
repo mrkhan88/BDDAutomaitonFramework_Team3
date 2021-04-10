@@ -5,12 +5,12 @@
       {
         "name": "I am at Autozone homepage",
         "aggregatedDurations": {
-          "median": 12.7348989,
-          "average": 12.7348989
+          "median": 14.6763956,
+          "average": 14.6763956
         },
         "durations": [
           {
-            "duration": 12.7348989,
+            "duration": 14.6763956,
             "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:4"
           }
         ]
@@ -18,36 +18,18 @@
     ]
   },
   {
-    "source": "I type {string} in SearchBox",
+    "source": "I click on the shopping cart button",
     "steps": [
       {
-        "name": "I type \"cheese\" in SearchBox",
+        "name": "I click on the shopping cart button",
         "aggregatedDurations": {
-          "median": 1.964748,
-          "average": 1.964748
+          "median": 1.0711371,
+          "average": 1.0711371
         },
         "durations": [
           {
-            "duration": 1.964748,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:39"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I press Enter button on keyboard",
-    "steps": [
-      {
-        "name": "I press Enter button on keyboard",
-        "aggregatedDurations": {
-          "median": 0.4158882,
-          "average": 0.4158882
-        },
-        "durations": [
-          {
-            "duration": 0.4158882,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:40"
+            "duration": 1.0711371,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:66"
           }
         ]
       }

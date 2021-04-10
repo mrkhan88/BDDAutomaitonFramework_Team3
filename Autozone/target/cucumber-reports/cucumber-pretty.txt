@@ -1,18 +1,20 @@
 
 @aaka
-Scenario: Search with invalid product name                                         # src/test/java/features/searchbox.feature:37
-  Given I am at Autozone homepage                                                  # stepdefinitions.SearchBoxStepDefinition.i_am_at_autozone_homepage()
-  And I type "cheese" in SearchBox                                                 # stepdefinitions.SearchBoxStepDefinition.i_Type_In_SearchBox(java.lang.String)
-  When I press Enter button on keyboard                                            # stepdefinitions.SearchBoxStepDefinition.i_press_enter_button_on_keyboard()
-  Then I verify that "cheese" should not be displayed as it is not a valid product # stepdefinitions.SearchBoxStepDefinition.i_Verify_That_Should_Not_Be_Displayed_As_It_Is_Not_A_Valid_Product_Using_The_Get_Text_Method(java.lang.String)
-      java.lang.AssertionError: Page title not match expected [Best Thread Repair Parts for Cars, Trucks & SUVs] but found [Access Denied]
+Scenario: Verify that clicking the logo after shopping cart takes you back to the homepage # src/test/java/features/searchbox.feature:64
+  Given I am at Autozone homepage                                                          # stepdefinitions.SearchBoxStepDefinition.i_am_at_autozone_homepage()
+  And I click on the shopping cart button                                                  # stepdefinitions.SearchBoxStepDefinition.i_Click_On_The_Shopping_Cart_Button()
+  And I verify that I am on the shopping cart page.                                        # stepdefinitions.SearchBoxStepDefinition.i_Verify_That_I_Am_On_The_Shopping_Cart_Page()
+      java.lang.AssertionError: Page title not match expected [Shopping Cart | AutoZone] but found [Access Denied]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:575)
-	at stepdefinitions.SearchBoxStepDefinition.i_Verify_That_Should_Not_Be_Displayed_As_It_Is_Not_A_Valid_Product_Using_The_Get_Text_Method(SearchBoxStepDefinition.java:106)
-	at ✽.I verify that "cheese" should not be displayed as it is not a valid product(file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:41)
+	at stepdefinitions.SearchBoxStepDefinition.i_Verify_That_I_Am_On_The_Shopping_Cart_Page(SearchBoxStepDefinition.java:119)
+	at ✽.I verify that I am on the shopping cart page.(file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:67)
 
 
-    Embedding demo1 [image/png 7043 bytes]
+    Embedding demo1 [image/png 6881 bytes]
 
+  But i should not be on the Homepage                                                      # stepdefinitions.SearchBoxStepDefinition.i_Should_Not_Be_On_The_Homepage()
+  Then I click on the Autozone logo                                                        # stepdefinitions.SearchBoxStepDefinition.iClickOnTheAutozoneLogo()
+  And I should be on the Autozone Homepage                                                 # stepdefinitions.SearchBoxStepDefinition.iShouldBeOnTheAutozoneHomepage()
