@@ -10,6 +10,7 @@ import io.cucumber.java.en.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import java.io.IOException;
 
@@ -44,23 +45,64 @@ public class SearchBoxStepDefinition extends WebAPI {
     public void i_am_at_autozone_homepage() throws IOException {
         openBrowser("https://www.autozone.com/");
     }
+
     @And("I type valid product name in SearchBox")
     public void i_type_valid_product_name_in_search_box() throws InterruptedException {
         homepage.typeInSearchbox();
     }
+
     @When("I press Enter button on keyboard")
     public void i_press_enter_button_on_keyboard() {
         homepage.pressEnterbutton();
-
     }
+
     @Then("I am navigated to Search result page")
     public void i_am_navigated_to_search_result_page() {
         homepage.navigatedToSearchResult();
+    }
+
+
+    @And("I type {string} in SearchBox")
+    public void i_Type_In_SearchBox(String productName) {
+        //call the action method here
+        homepage.typeInAutoZoneSearchBox(productName);
+    }
+
+    @Then("I verify that {string} is displayed")
+    public void i_Verify_That_Is_Displayed(String arg0) throws InterruptedException {
+        String expectedText = "Search Results for : alternator";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+        Thread.sleep(5000);
+    }
+
+    @Then("I verify that {string} is displayed \\(using get text method)")
+    public void i_Verify_That_Is_Displayed_Using_Get_Text_Method(String expectedText) {
+        homepage.verifySearchResult(expectedText);
+
+
+    }
+
+    @And("I verify that page title is matched")
+    public void i_Verify_That_Page_Title_Is_Matched() throws InterruptedException {
+        String expectedText = "Search Results for : spark plug";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+        Thread.sleep(5000);
 
     }
 
 
 
+    @And("I type {string} in SearchBox another way")
+    public void i_Type_In_Search_Box_Another_Way(String productName2) {
+        homepage.typeInAutoZoneSearchBox(productName2);
+    }
 
-
+    @Then("I verify that {string} should not be displayed as it is not a valid product")
+    public void i_Verify_That_Should_Not_Be_Displayed_As_It_Is_Not_A_Valid_Product_Using_The_Get_Text_Method(String Text) {
+        String expectedText = "Best Thread Repair Parts for Cars, Trucks & SUVs";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
 }

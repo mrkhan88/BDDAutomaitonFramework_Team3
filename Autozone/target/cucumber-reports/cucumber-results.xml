@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="11.854">
-    <testcase classname="Autozone searchBox test" name="Search with valid product name" time="6.128">
-        <failure message="" type="java.lang.IllegalMonitorStateException">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.155">
+    <testcase classname="Autozone searchBox test" name="Search with invalid product name" time="17.186">
+        <failure message="Page title not match expected [Best Thread Repair Parts for Cars, Trucks &amp; SUVs] but found [Access Denied]" type="java.lang.AssertionError">
             <![CDATA[Given I am at Autozone homepage.............................................passed
-And I type valid product name in SearchBox..................................failed
-When I press Enter button on keyboard.......................................skipped
-Then I am navigated to Search result page...................................skipped
+And I type "cheese" in SearchBox............................................passed
+When I press Enter button on keyboard.......................................passed
+Then I verify that "cheese" should not be displayed as it is not a valid product.failed
 
 StackTrace:
-java.lang.IllegalMonitorStateException
-	at java.base/java.lang.Object.wait(Native Method)
-	at homepage.Homepage.typeInSearchbox(Homepage.java:40)
-	at stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box(SearchBoxStepDefinition.java:68)
-	at ✽.I type valid product name in SearchBox(file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:5)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="Autozone searchBox test" name="Search with Invalid product name" time="5.52">
-        <failure message="" type="java.lang.IllegalMonitorStateException">
-            <![CDATA[Given I am at Autozone homepage.............................................passed
-And I type valid product name in SearchBox..................................failed
-When I press Enter button on keyboard.......................................skipped
-Then I am navigated to Search result page...................................skipped
-
-StackTrace:
-java.lang.IllegalMonitorStateException
-	at java.base/java.lang.Object.wait(Native Method)
-	at homepage.Homepage.typeInSearchbox(Homepage.java:40)
-	at stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box(SearchBoxStepDefinition.java:68)
-	at ✽.I type valid product name in SearchBox(file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:12)
+java.lang.AssertionError: Page title not match expected [Best Thread Repair Parts for Cars, Trucks & SUVs] but found [Access Denied]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at stepdefinitions.SearchBoxStepDefinition.i_Verify_That_Should_Not_Be_Displayed_As_It_Is_Not_A_Valid_Product_Using_The_Get_Text_Method(SearchBoxStepDefinition.java:106)
+	at ✽.I verify that "cheese" should not be displayed as it is not a valid product(file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:41)
 ]]>
         </failure>
     </testcase>

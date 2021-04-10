@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Presbyterian" />
+        <module name="Autozone" />
+        <module name="Generic" />
         <module name="Boost_Mobile" />
         <module name="WayFair" />
-        <module name="Generic" />
-        <module name="Autozone" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

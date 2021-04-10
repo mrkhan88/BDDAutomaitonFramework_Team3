@@ -125,7 +125,7 @@ public class WebAPI {
     public static String sauceLabs_accessKey = "";
 
     public void openBrowser(String url) throws IOException {
-        setUp(false,"browserStack","OS X","Big Sur","chrome","89",url);
+        setUp(false,"browserStack","windows","windows 10","chrome","89",url);
     }
 
 

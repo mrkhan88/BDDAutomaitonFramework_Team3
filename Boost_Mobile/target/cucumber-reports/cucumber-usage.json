@@ -5,17 +5,13 @@
       {
         "name": "I am at Boostmobile homepage",
         "aggregatedDurations": {
-          "median": 3.916624,
-          "average": 3.916624
+          "median": 16.244585,
+          "average": 16.244585
         },
         "durations": [
           {
-            "duration": 4.046995,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:4"
-          },
-          {
-            "duration": 3.786253,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:12"
+            "duration": 16.244585,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:4"
           }
         ]
       }
@@ -27,13 +23,13 @@
       {
         "name": "I click on Search",
         "aggregatedDurations": {
-          "median": 0.131036,
-          "average": 0.131036
+          "median": 3.6810984,
+          "average": 3.6810984
         },
         "durations": [
           {
-            "duration": 0.131036,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:5"
+            "duration": 3.6810984,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:5"
           }
         ]
       }
@@ -45,13 +41,13 @@
       {
         "name": "I type valid product name in SearchBox",
         "aggregatedDurations": {
-          "median": 0.757756,
-          "average": 0.757756
+          "median": 1.287962,
+          "average": 1.287962
         },
         "durations": [
           {
-            "duration": 0.757756,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:6"
+            "duration": 1.287962,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:6"
           }
         ]
       }
@@ -63,13 +59,13 @@
       {
         "name": "I click on SearchBox button",
         "aggregatedDurations": {
-          "median": 0.08613,
-          "average": 0.08613
+          "median": 0.2564101,
+          "average": 0.2564101
         },
         "durations": [
           {
-            "duration": 0.08613,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:7"
+            "duration": 0.2564101,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:7"
           }
         ]
       }
@@ -81,13 +77,13 @@
       {
         "name": "I am navigated to Search result page",
         "aggregatedDurations": {
-          "median": 0.184544,
-          "average": 0.184544
+          "median": 0.7187208,
+          "average": 0.7187208
         },
         "durations": [
           {
-            "duration": 0.184544,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:8"
+            "duration": 0.7187208,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:8"
           }
         ]
       }

@@ -5,17 +5,49 @@
       {
         "name": "I am at Autozone homepage",
         "aggregatedDurations": {
-          "median": 4.4879785,
-          "average": 4.4879785
+          "median": 12.7348989,
+          "average": 12.7348989
         },
         "durations": [
           {
-            "duration": 4.708125,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:4"
-          },
+            "duration": 12.7348989,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type {string} in SearchBox",
+    "steps": [
+      {
+        "name": "I type \"cheese\" in SearchBox",
+        "aggregatedDurations": {
+          "median": 1.964748,
+          "average": 1.964748
+        },
+        "durations": [
           {
-            "duration": 4.267832,
-            "location": "file:///Users/mamunkhan/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:11"
+            "duration": 1.964748,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I press Enter button on keyboard",
+    "steps": [
+      {
+        "name": "I press Enter button on keyboard",
+        "aggregatedDurations": {
+          "median": 0.4158882,
+          "average": 0.4158882
+        },
+        "durations": [
+          {
+            "duration": 0.4158882,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Autozone/src/test/java/features/searchbox.feature:40"
           }
         ]
       }

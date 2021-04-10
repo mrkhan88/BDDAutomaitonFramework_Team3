@@ -14,11 +14,17 @@ public class Homepage extends WebAPI {
     public static final String searchButton_xp ="//input[@id='nav-search-submit-button']";
     public static final String searchResultText_xp = "//span[@class='a-color-state a-text-bold']";
     public  String expectedText ="\"ipad air\"";
+    public static final String autozoneSearchBoxLocator = "//input[@id='deskTopSearchInput']"; //xpath
 
     public String searchText = "battery";
 
+
     @FindBy(how = How.XPATH, using ="//input[@id='deskTopSearchInput']") public WebElement searchBox1;
     @FindBy(xpath = "//img[@alt='search']")public WebElement searchButton1;
+    @FindBy(how = How.XPATH, using = autozoneSearchBoxLocator) public WebElement autozoneSearchBox;
+    //@FindBy(how = How.XPATH, using = closeCookies) public WebElement closeCookies1;
+    @FindBy(xpath = "//h2[contains(text(),'spark plug')]") public WebElement sparkPlugText;
+
 
     public void typeInSearchbox() throws InterruptedException {
         searchBox1.sendKeys("battery");
@@ -31,6 +37,20 @@ public class Homepage extends WebAPI {
     public void navigatedToSearchResult(){
         Assert.assertTrue(driver.getCurrentUrl().contains(searchText));
     }
+
+    //make an action method
+    //type in searchbox
+    public void typeInAutoZoneSearchBox(String productName){
+        autozoneSearchBox.sendKeys(productName);
+    }
+
+
+    public void verifySearchResult(String expectedText){
+        String actualText=sparkPlugText.getText();
+        Assert.assertEquals("Product does not match",expectedText,actualText);
+    }
+
+
 
 
 
