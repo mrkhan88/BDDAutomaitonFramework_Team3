@@ -15,6 +15,8 @@ public class HomePage extends WebAPI {
     @FindBy(how = How.XPATH, using = "//body/div[@id='doc3']/div[4]/footer[1]/section[3]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/*[1]")
     public WebElement AllModern;
     @FindBy(how = How.XPATH, using = "//body/div[@id='doc3']/div[4]/footer[1]/section[3]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/*[1]") public WebElement BirchLane;
+    @FindBy(how = How.XPATH, using = "//header/div[1]/nav[1]/div[2]/form[1]/input[3]") public WebElement searchBox;
+
 
     public void clickOnJossAndMain() {
         JossAndMain.click();
@@ -33,4 +35,9 @@ public class HomePage extends WebAPI {
     public void clickOnBirchLane(){
         BirchLane.click();
     }
+
+    public void clickOnSearchBox(){
+        searchBox.click();
+    }
+
 }

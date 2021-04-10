@@ -22,24 +22,23 @@ public class HomePageStepDefinition extends WebAPI {
     static HomePage homepage;
 
 
-
     // Cucumber Hook
     @AfterStep
-    public void tearDown(Scenario scenario){
-        if (scenario.isFailed()){
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
             // Take a screenshot
-            final byte[] screenShot= ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenShot,"image/png","demo1");  // embed it in the report
+            final byte[] screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenShot, "image/png", "demo1");  // embed it in the report
         }
     }
 
     @BeforeStep
-    public static void getInit(){
-        homepage= PageFactory.initElements(driver,HomePage.class);
+    public static void getInit() {
+        homepage = PageFactory.initElements(driver, HomePage.class);
     }
 
     @After
-    public void closeBrowser(){
+    public void closeBrowser() {
         cleanUp();
     }
 
@@ -86,7 +85,7 @@ public class HomePageStepDefinition extends WebAPI {
     @And("I click on {string} BL")
     public void iClickOnBL(String arg0) {
         homepage.clickOnBirchLane();
-        }
+    }
 
 
     @Then("I verify {string}  BL")
@@ -97,5 +96,33 @@ public class HomePageStepDefinition extends WebAPI {
     }
 
 
+    @And("I click on the searchbox")
+    public void iClickOnTheSearchbox() {
+        homepage.clickOnSearchBox();
+    }
+
+    @And("I type in a valid product {string}")
+    public void iTypeInAValidProduct(String arg0) {
+        typeOnElementNEnter("//header/div[1]/nav[1]/div[2]/form[1]/input[3]","rugs");
+    }
+
+    @Then("I verify that the product matches")
+    public void iVerifyThatTheProductMatches() {
+        String expectedText = "Area Rugs You'll Love in 2021 | Wayfair";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
+
+    @And("I type in a invalid product {string}")
+    public void iTypeInAInvalidProduct(String arg0) {
+        typeOnElementNEnter("//header/div[1]/nav[1]/div[2]/form[1]/input[3]","xyz");
+    }
+
+    @Then("I verify that there are no products shown")
+    public void iVerifyThatThereAreNoProductsShown() {
+        String expectedText = "";
+        String ActualText = driver.getTitle();
+        Assert.assertEquals(ActualText, expectedText, "Page title not match");
+    }
 }
 

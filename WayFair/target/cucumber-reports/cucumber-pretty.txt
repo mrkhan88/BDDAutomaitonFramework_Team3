@@ -1,18 +1,25 @@
 
 @aaka
-Scenario: verify clicking the back button takes you back to the homepage # src/test/java/features/homepage.feature:23
-  Given I am on Wayfair homepage                                         # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
-  And I click on "All Modern" AM                                         # stepdefinitions.HomePageStepDefinition.iClickOnAM(java.lang.String)
-  Then clicking the back button should take me back to the homepage      # stepdefinitions.HomePageStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()
+Scenario: searchbox (positive test)      # src/test/java/features/homepage.feature:4
+  Given I am on Wayfair homepage         # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
+  And I click on the searchbox           # stepdefinitions.HomePageStepDefinition.iClickOnTheSearchbox()
+  And I type in a valid product "rugs"   # stepdefinitions.HomePageStepDefinition.iTypeInAValidProduct(java.lang.String)
+  Then I verify that the product matches # stepdefinitions.HomePageStepDefinition.iVerifyThatTheProductMatches()
 
 @aaka
-Scenario: Verify that partner company's take you to their respective websites # src/test/java/features/homepage.feature:30
-  Given I am on Wayfair homepage                                              # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
-  And I click on "Birch Lane" BL                                              # stepdefinitions.HomePageStepDefinition.iClickOnBL(java.lang.String)
-  Then I verify "Birch Lane"  BL                                              # stepdefinitions.HomePageStepDefinition.iVerifyBL(java.lang.String)
+Scenario: searchbox (negative)                   # src/test/java/features/homepage.feature:11
+  Given I am on Wayfair homepage                 # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
+  And I click on the searchbox                   # stepdefinitions.HomePageStepDefinition.iClickOnTheSearchbox()
+  And I type in a invalid product "xyz"          # stepdefinitions.HomePageStepDefinition.iTypeInAInvalidProduct(java.lang.String)
+  Then I verify that there are no products shown # stepdefinitions.HomePageStepDefinition.iVerifyThatThereAreNoProductsShown()
+      java.lang.AssertionError: Page title not match expected [] but found [Xyz | Wayfair]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at stepdefinitions.HomePageStepDefinition.iVerifyThatThereAreNoProductsShown(HomePageStepDefinition.java:125)
+	at ✽.I verify that there are no products shown(file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:15)
 
-@aaka
-Scenario: verify clicking the back button takes you back to the homepage # src/test/java/features/homepage.feature:36
-  Given I am on Wayfair homepage                                         # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
-  And I click on "Birch Lane" BL                                         # stepdefinitions.HomePageStepDefinition.iClickOnBL(java.lang.String)
-  Then clicking the back button should take me back to the homepage      # stepdefinitions.HomePageStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()
+
+    Embedding demo1 [image/png 176341 bytes]
+

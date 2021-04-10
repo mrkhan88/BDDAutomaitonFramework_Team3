@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="36.829">
-    <testcase classname="WayFair homepage test" name="verify clicking the back button takes you back to the homepage" time="12.598">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="69.593">
+    <testcase classname="WayFair homepage test" name="searchbox (positive test)" time="36.749">
         <system-out>
             <![CDATA[Given I am on Wayfair homepage..............................................passed
-And I click on "All Modern" AM..............................................passed
-Then clicking the back button should take me back to the homepage...........passed
+And I click on the searchbox................................................passed
+And I type in a valid product "rugs"........................................passed
+Then I verify that the product matches......................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="WayFair homepage test" name="Verify that partner company's take you to their respective websites" time="11.107">
-        <system-out>
+    <testcase classname="WayFair homepage test" name="searchbox (negative)" time="31.91">
+        <failure message="Page title not match expected [] but found [Xyz | Wayfair]" type="java.lang.AssertionError">
             <![CDATA[Given I am on Wayfair homepage..............................................passed
-And I click on "Birch Lane" BL..............................................passed
-Then I verify "Birch Lane"  BL..............................................passed
+And I click on the searchbox................................................passed
+And I type in a invalid product "xyz".......................................passed
+Then I verify that there are no products shown..............................failed
+
+StackTrace:
+java.lang.AssertionError: Page title not match expected [] but found [Xyz | Wayfair]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at stepdefinitions.HomePageStepDefinition.iVerifyThatThereAreNoProductsShown(HomePageStepDefinition.java:125)
+	at ✽.I verify that there are no products shown(file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:15)
 ]]>
-        </system-out>
-    </testcase>
-    <testcase classname="WayFair homepage test" name="verify clicking the back button takes you back to the homepage" time="12.399">
-        <system-out>
-            <![CDATA[Given I am on Wayfair homepage..............................................passed
-And I click on "Birch Lane" BL..............................................passed
-Then clicking the back button should take me back to the homepage...........passed
-]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

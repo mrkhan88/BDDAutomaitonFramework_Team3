@@ -1,6 +1,21 @@
 Feature: WayFair homepage test
 
   @null
+  Scenario:searchbox (positive test)
+    Given  I am on Wayfair homepage
+    And I click on the searchbox
+    And I type in a valid product "rugs"
+    Then I verify that the product matches
+
+  @null
+  Scenario:searchbox (negative)
+    Given I am on Wayfair homepage
+    And I click on the searchbox
+    And I type in a invalid product "xyz"
+    Then I verify that there are no products shown
+
+
+  @null
   Scenario:Verify that partner company's take you to their respective websites
     Given I am on Wayfair homepage
     And I click on "Joss and Main" JM
@@ -19,21 +34,24 @@ Feature: WayFair homepage test
     And I click on "All Modern" AM
     Then I verify "All Modern" AM
 
-  @aaka
+  @null
   Scenario: verify clicking the back button takes you back to the homepage
     Given I am on Wayfair homepage
     And I click on "All Modern" AM
     Then clicking the back button should take me back to the homepage
 
 
-  @aaka
+  @null
   Scenario:Verify that partner company's take you to their respective websites
     Given I am on Wayfair homepage
     And I click on "Birch Lane" BL
     Then I verify "Birch Lane"  BL
 
-  @aaka
+  @null
   Scenario: verify clicking the back button takes you back to the homepage
     Given I am on Wayfair homepage
     And I click on "Birch Lane" BL
     Then clicking the back button should take me back to the homepage
+
+
+

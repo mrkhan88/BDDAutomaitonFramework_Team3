@@ -5,101 +5,93 @@
       {
         "name": "I am on Wayfair homepage",
         "aggregatedDurations": {
-          "median": 5.471135,
-          "average": 5.4468315
+          "median": 6.8653707,
+          "average": 6.8653707
         },
         "durations": [
           {
-            "duration": 5.471135,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:24"
+            "duration": 7.2928952,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:5"
           },
           {
-            "duration": 5.6800109,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:31"
-          },
-          {
-            "duration": 5.1893486,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:37"
+            "duration": 6.4378462,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:12"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on {string} AM",
+    "source": "I click on the searchbox",
     "steps": [
       {
-        "name": "I click on \"All Modern\" AM",
+        "name": "I click on the searchbox",
         "aggregatedDurations": {
-          "median": 3.4734772,
-          "average": 3.4734772
+          "median": 0.89036395,
+          "average": 0.89036395
         },
         "durations": [
           {
-            "duration": 3.4734772,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "clicking the back button should take me back to the homepage",
-    "steps": [
-      {
-        "name": "clicking the back button should take me back to the homepage",
-        "aggregatedDurations": {
-          "median": 2.42997305,
-          "average": 2.42997305
-        },
-        "durations": [
-          {
-            "duration": 2.5677591,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:26"
+            "duration": 0.7868959,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:6"
           },
           {
-            "duration": 2.292187,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:39"
+            "duration": 0.993832,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:13"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on {string} BL",
+    "source": "I type in a valid product {string}",
     "steps": [
       {
-        "name": "I click on \"Birch Lane\" BL",
+        "name": "I type in a valid product \"rugs\"",
         "aggregatedDurations": {
-          "median": 4.2750119,
-          "average": 4.2750119
+          "median": 26.3059501,
+          "average": 26.3059501
         },
         "durations": [
           {
-            "duration": 4.4355828,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:32"
-          },
-          {
-            "duration": 4.114441,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:38"
+            "duration": 26.3059501,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:7"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify {string}  BL",
+    "source": "I verify that the product matches",
     "steps": [
       {
-        "name": "I verify \"Birch Lane\"  BL",
+        "name": "I verify that the product matches",
         "aggregatedDurations": {
-          "median": 0.0789722,
-          "average": 0.0789722
+          "median": 0.8187212,
+          "average": 0.8187212
         },
         "durations": [
           {
-            "duration": 0.0789722,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:33"
+            "duration": 0.8187212,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type in a invalid product {string}",
+    "steps": [
+      {
+        "name": "I type in a invalid product \"xyz\"",
+        "aggregatedDurations": {
+          "median": 22.3795991,
+          "average": 22.3795991
+        },
+        "durations": [
+          {
+            "duration": 22.3795991,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/WayFair/src/test/java/features/homepage.feature:14"
           }
         ]
       }
