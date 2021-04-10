@@ -60,7 +60,7 @@ Feature: Autozone searchBox test
 
 
 
-  @aaka
+  @null
   Scenario: Verify that clicking the logo after shopping cart takes you back to the homepage
       # Given I am at Autozone homepage
     And I click on the shopping cart button
@@ -68,6 +68,10 @@ Feature: Autozone searchBox test
     But i should not be on the Homepage
     Then I click on the Autozone logo
     And I should be on the Autozone Homepage
+
+
+
+
 
 
 

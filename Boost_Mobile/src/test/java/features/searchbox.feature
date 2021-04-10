@@ -1,4 +1,5 @@
 Feature: Amazon searchBox test
+
   @smoketest
   Scenario: Search with valid product name
     Given I am at Boostmobile homepage

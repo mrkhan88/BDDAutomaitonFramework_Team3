@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am on the Presbyterian homepage",
+    "steps": [
+      {
+        "name": "I am on the Presbyterian homepage",
+        "aggregatedDurations": {
+          "median": 14.1938912,
+          "average": 14.1938912
+        },
+        "durations": [
+          {
+            "duration": 14.1938912,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Presbyterian/src/test/java/features/homepage.feature:207"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} PN tab",
+    "steps": [
+      {
+        "name": "I click on \"Privacy Notice\" PN tab",
+        "aggregatedDurations": {
+          "median": 2.4397318,
+          "average": 2.4397318
+        },
+        "durations": [
+          {
+            "duration": 2.4397318,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Presbyterian/src/test/java/features/homepage.feature:208"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that I am on the {string} PN",
+    "steps": [
+      {
+        "name": "I verify that I am on the \"Privacy Notice\" PN",
+        "aggregatedDurations": {
+          "median": 0.0730334,
+          "average": 0.0730334
+        },
+        "durations": [
+          {
+            "duration": 0.0730334,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Presbyterian/src/test/java/features/homepage.feature:209"
+          }
+        ]
+      }
+    ]
+  }
+]
