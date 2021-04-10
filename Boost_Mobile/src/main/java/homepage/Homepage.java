@@ -17,6 +17,11 @@ public class Homepage extends WebAPI {
     public WebElement searchBoxButton;
     @FindBy(xpath = "//div[@id='addsearch-result-item-1']/div/h2/a")
     public WebElement serachResultText;
+    @FindBy(xpath = "//body/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ol[1]/li[1]/a[1]")
+    public WebElement AllPhones;
+    @FindBy(xpath = "//*[@id='']")
+    public WebElement HomePageLogo;
+
 
     public String expectedSearchText = "12 Pro Max";
 
@@ -28,12 +33,24 @@ public class Homepage extends WebAPI {
         searchBox2.sendKeys("iphone 12 pro max");
     }
 
-    public void clickSeachBox() {
-        searchBoxButton.click();
+    public void clickSeachBox() { searchBoxButton.click();
     }
 
     public void verifySearchResult() {
         Assert.assertTrue(serachResultText.getText().contains(expectedSearchText));
+    }
+
+    public void clickOnHomePageLogo(){
+        HomePageLogo.click();
+    }
+
+    public void clickOnAllPhones(){
+        AllPhones.click();
+    }
+    public void checkHomePage() {
+        String expectedText = "Affordable No-Contract, Prepaid Wireless | Boost Mobile";
+        String ActualText = driver.getTitle();
+        org.testng.Assert.assertEquals(ActualText, expectedText, "Page title not match");
     }
 
 

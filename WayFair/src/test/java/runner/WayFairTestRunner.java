@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/java/features"},
-        glue = "src/test/java/stepdefinitions/HomePageStepDefinition.java",
+        glue = "stepdefinitions",
 
         /// to generate different type of reporting
         plugin = {"pretty","json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports/index.html",

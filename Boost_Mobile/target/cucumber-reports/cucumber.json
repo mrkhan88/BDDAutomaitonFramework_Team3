@@ -3,15 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-03T03:52:45.381Z",
-        "line": 3,
-        "name": "Search with valid product name",
+        "start_timestamp": "2021-04-10T18:13:33.667Z",
+        "line": 19,
+        "name": "Verify foot note links",
         "description": "",
-        "id": "amazon-searchbox-test;search-with-valid-product-name",
+        "id": "amazon-searchbox-test;verify-foot-note-links",
         "after": [
           {
             "result": {
-              "duration": 2236524200,
+              "duration": 892300600,
               "status": "passed"
             },
             "match": {
@@ -24,13 +24,13 @@
         "steps": [
           {
             "result": {
-              "duration": 16244585000,
+              "duration": 8916046400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 53452800,
+                  "duration": 30164900,
                   "status": "passed"
                 },
                 "match": {
@@ -38,7 +38,7 @@
                 }
               }
             ],
-            "line": 4,
+            "line": 20,
             "name": "I am at Boostmobile homepage",
             "match": {
               "location": "stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()"
@@ -46,7 +46,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 2116400,
+                  "duration": 1399400,
                   "status": "passed"
                 },
                 "match": {
@@ -58,13 +58,12 @@
           },
           {
             "result": {
-              "duration": 3681098400,
+              "duration": 3052567000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1994100,
                   "status": "passed"
                 },
                 "match": {
@@ -72,15 +71,20 @@
                 }
               }
             ],
-            "line": 5,
-            "name": "I click on Search",
+            "line": 21,
+            "name": "I click on \"All phones\" AP",
             "match": {
-              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_on_search()"
+              "arguments": [
+                {
+                  "val": "\"All phones\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)"
             },
             "after": [
               {
                 "result": {
-                  "duration": 997700,
                   "status": "passed"
                 },
                 "match": {
@@ -92,13 +96,13 @@
           },
           {
             "result": {
-              "duration": 1287962000,
+              "duration": 277953000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 3025300,
+                  "duration": 3456800,
                   "status": "passed"
                 },
                 "match": {
@@ -106,82 +110,21 @@
                 }
               }
             ],
-            "line": 6,
-            "name": "I type valid product name in SearchBox",
+            "line": 22,
+            "name": "I verify that I am on the \"All phones\" AP page",
             "match": {
-              "location": "stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box()"
+              "arguments": [
+                {
+                  "val": "\"All phones\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)"
             },
             "after": [
               {
                 "result": {
-                  "duration": 996800,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 256410100,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1558400,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "I click on SearchBox button",
-            "match": {
-              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_on_search_box_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 370100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 718720800,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 8,
-            "name": "I am navigated to Search result page",
-            "match": {
-              "location": "stepdefinitions.SearchBoxStepDefinition.i_am_navigated_to_search_result_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 998600,
+                  "duration": 1590800,
                   "status": "passed"
                 },
                 "match": {
@@ -194,7 +137,179 @@
         ],
         "tags": [
           {
-            "name": "@smoketest"
+            "name": "@aaka"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-10T18:13:47.025Z",
+        "line": 25,
+        "name": "verify clicking the back button takes you back to the homepage",
+        "description": "",
+        "id": "amazon-searchbox-test;verify-clicking-the-back-button-takes-you-back-to-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 1284087600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7165522300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I am at Boostmobile homepage",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1259700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2492659000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I click on \"All phones\" AP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All phones\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14100600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 109800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I verify that I am on the \"All phones\" AP page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All phones\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1003800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2339315400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "clicking the back button should take me back to the homepage",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@aaka"
           }
         ]
       }

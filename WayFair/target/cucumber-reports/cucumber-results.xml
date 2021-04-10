@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="36.829">
+    <testcase classname="WayFair homepage test" name="verify clicking the back button takes you back to the homepage" time="12.598">
+        <system-out>
+            <![CDATA[Given I am on Wayfair homepage..............................................passed
+And I click on "All Modern" AM..............................................passed
+Then clicking the back button should take me back to the homepage...........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WayFair homepage test" name="Verify that partner company's take you to their respective websites" time="11.107">
+        <system-out>
+            <![CDATA[Given I am on Wayfair homepage..............................................passed
+And I click on "Birch Lane" BL..............................................passed
+Then I verify "Birch Lane"  BL..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WayFair homepage test" name="verify clicking the back button takes you back to the homepage" time="12.399">
+        <system-out>
+            <![CDATA[Given I am on Wayfair homepage..............................................passed
+And I click on "Birch Lane" BL..............................................passed
+Then clicking the back button should take me back to the homepage...........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

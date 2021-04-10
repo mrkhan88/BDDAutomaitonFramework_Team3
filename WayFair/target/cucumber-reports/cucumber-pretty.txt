@@ -1,0 +1,18 @@
+
+@aaka
+Scenario: verify clicking the back button takes you back to the homepage # src/test/java/features/homepage.feature:23
+  Given I am on Wayfair homepage                                         # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
+  And I click on "All Modern" AM                                         # stepdefinitions.HomePageStepDefinition.iClickOnAM(java.lang.String)
+  Then clicking the back button should take me back to the homepage      # stepdefinitions.HomePageStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()
+
+@aaka
+Scenario: Verify that partner company's take you to their respective websites # src/test/java/features/homepage.feature:30
+  Given I am on Wayfair homepage                                              # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
+  And I click on "Birch Lane" BL                                              # stepdefinitions.HomePageStepDefinition.iClickOnBL(java.lang.String)
+  Then I verify "Birch Lane"  BL                                              # stepdefinitions.HomePageStepDefinition.iVerifyBL(java.lang.String)
+
+@aaka
+Scenario: verify clicking the back button takes you back to the homepage # src/test/java/features/homepage.feature:36
+  Given I am on Wayfair homepage                                         # stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()
+  And I click on "Birch Lane" BL                                         # stepdefinitions.HomePageStepDefinition.iClickOnBL(java.lang.String)
+  Then clicking the back button should take me back to the homepage      # stepdefinitions.HomePageStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()

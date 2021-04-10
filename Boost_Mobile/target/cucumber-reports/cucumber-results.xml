@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.671">
-    <testcase classname="Amazon searchBox test" name="Search with valid product name" time="24.679">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.309">
+    <testcase classname="Amazon searchBox test" name="Verify foot note links" time="13.314">
         <system-out>
             <![CDATA[Given I am at Boostmobile homepage..........................................passed
-And I click on Search.......................................................passed
-And I type valid product name in SearchBox..................................passed
-When I click on SearchBox button............................................passed
-Then I am navigated to Search result page...................................passed
+And I click on "All phones" AP..............................................passed
+Then I verify that I am on the "All phones" AP page.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon searchBox test" name="verify clicking the back button takes you back to the homepage" time="13.314">
+        <system-out>
+            <![CDATA[Given I am at Boostmobile homepage..........................................passed
+And I click on "All phones" AP..............................................passed
+Then I verify that I am on the "All phones" AP page.........................passed
+Then clicking the back button should take me back to the homepage...........passed
 ]]>
         </system-out>
     </testcase>

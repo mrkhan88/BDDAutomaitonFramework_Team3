@@ -1,0 +1,414 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-10T17:50:36.721Z",
+        "line": 23,
+        "name": "verify clicking the back button takes you back to the homepage",
+        "description": "",
+        "id": "wayfair-homepage-test;verify-clicking-the-back-button-takes-you-back-to-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 858704100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5471135000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 58858300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I am on Wayfair homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3961700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3473477200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I click on \"All Modern\" AM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Modern\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDefinition.iClickOnAM(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1486900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2567759100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "clicking the back button should take me back to the homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1039600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@aaka"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-10T17:50:49.372Z",
+        "line": 30,
+        "name": "Verify that partner company\u0027s take you to their respective websites",
+        "description": "",
+        "id": "wayfair-homepage-test;verify-that-partner-company-s-take-you-to-their-respective-websites",
+        "after": [
+          {
+            "result": {
+              "duration": 901637900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5680010900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I am on Wayfair homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4435582800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "I click on \"Birch Lane\" BL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Birch Lane\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDefinition.iClickOnBL(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78972200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2573700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "I verify \"Birch Lane\"  BL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Birch Lane\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDefinition.iVerifyBL(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@aaka"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-10T17:51:00.495Z",
+        "line": 36,
+        "name": "verify clicking the back button takes you back to the homepage",
+        "description": "",
+        "id": "wayfair-homepage-test;verify-clicking-the-back-button-takes-you-back-to-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 796155500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5189348600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "I am on Wayfair homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.iAmOnWayfairHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4114441000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "I click on \"Birch Lane\" BL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Birch Lane\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDefinition.iClickOnBL(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2292187000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "clicking the back button should take me back to the homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@aaka"
+          }
+        ]
+      }
+    ],
+    "name": "WayFair homepage test",
+    "description": "",
+    "id": "wayfair-homepage-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/homepage.feature",
+    "tags": []
+  }
+]

@@ -1,8 +1,13 @@
 
-@smoketest
-Scenario: Search with valid product name     # src/test/java/features/searchbox.feature:3
-  Given I am at Boostmobile homepage         # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
-  And I click on Search                      # stepdefinitions.SearchBoxStepDefinition.i_click_on_search()
-  And I type valid product name in SearchBox # stepdefinitions.SearchBoxStepDefinition.i_type_valid_product_name_in_search_box()
-  When I click on SearchBox button           # stepdefinitions.SearchBoxStepDefinition.i_click_on_search_box_button()
-  Then I am navigated to Search result page  # stepdefinitions.SearchBoxStepDefinition.i_am_navigated_to_search_result_page()
+@aaka
+Scenario: Verify foot note links                      # src/test/java/features/searchbox.feature:19
+  Given I am at Boostmobile homepage                  # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
+  And I click on "All phones" AP                      # stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)
+  Then I verify that I am on the "All phones" AP page # stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)
+
+@aaka
+Scenario: verify clicking the back button takes you back to the homepage # src/test/java/features/searchbox.feature:25
+  Given I am at Boostmobile homepage                                     # stepdefinitions.SearchBoxStepDefinition.i_am_at_boostmobile_homepage()
+  And I click on "All phones" AP                                         # stepdefinitions.SearchBoxStepDefinition.iClickOnAP(java.lang.String)
+  Then I verify that I am on the "All phones" AP page                    # stepdefinitions.SearchBoxStepDefinition.iVerifyThatIAmOnTheAPPage(java.lang.String)
+  Then clicking the back button should take me back to the homepage      # stepdefinitions.SearchBoxStepDefinition.clickingTheBackButtonShouldTakeMeBackToTheHomepage()

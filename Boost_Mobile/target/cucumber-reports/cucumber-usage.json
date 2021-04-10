@@ -5,85 +5,79 @@
       {
         "name": "I am at Boostmobile homepage",
         "aggregatedDurations": {
-          "median": 16.244585,
-          "average": 16.244585
+          "median": 8.04078435,
+          "average": 8.04078435
         },
         "durations": [
           {
-            "duration": 16.244585,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:4"
+            "duration": 8.9160464,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:20"
+          },
+          {
+            "duration": 7.1655223,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:26"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Search",
+    "source": "I click on {string} AP",
     "steps": [
       {
-        "name": "I click on Search",
+        "name": "I click on \"All phones\" AP",
         "aggregatedDurations": {
-          "median": 3.6810984,
-          "average": 3.6810984
+          "median": 2.772613,
+          "average": 2.772613
         },
         "durations": [
           {
-            "duration": 3.6810984,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:5"
+            "duration": 3.052567,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:21"
+          },
+          {
+            "duration": 2.492659,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:27"
           }
         ]
       }
     ]
   },
   {
-    "source": "I type valid product name in SearchBox",
+    "source": "I verify that I am on the {string} AP page",
     "steps": [
       {
-        "name": "I type valid product name in SearchBox",
+        "name": "I verify that I am on the \"All phones\" AP page",
         "aggregatedDurations": {
-          "median": 1.287962,
-          "average": 1.287962
+          "median": 0.1460268,
+          "average": 0.1460268
         },
         "durations": [
           {
-            "duration": 1.287962,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:6"
+            "duration": 0.277953,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:22"
+          },
+          {
+            "duration": 0.0141006,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:28"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on SearchBox button",
+    "source": "clicking the back button should take me back to the homepage",
     "steps": [
       {
-        "name": "I click on SearchBox button",
+        "name": "clicking the back button should take me back to the homepage",
         "aggregatedDurations": {
-          "median": 0.2564101,
-          "average": 0.2564101
+          "median": 2.3393154,
+          "average": 2.3393154
         },
         "durations": [
           {
-            "duration": 0.2564101,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I am navigated to Search result page",
-    "steps": [
-      {
-        "name": "I am navigated to Search result page",
-        "aggregatedDurations": {
-          "median": 0.7187208,
-          "average": 0.7187208
-        },
-        "durations": [
-          {
-            "duration": 0.7187208,
-            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:8"
+            "duration": 2.3393154,
+            "location": "file:///C:/Users/Shihab/IdeaProjects/BDDAutomaitonFramework_Team3/Boost_Mobile/src/test/java/features/searchbox.feature:29"
           }
         ]
       }
